@@ -1,8 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JuniorParsingTask", "JuniorParsingTask\JuniorParsingTask.csproj", "{36DC30AE-24B6-483E-A9F2-1DC51F696F17}"
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32616.157
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "JuniorParsingTask", "JuniorParsingTask\JuniorParsingTask.csproj", "{36DC30AE-24B6-483E-A9F2-1DC51F696F17}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JuniorParsingTask.App", "JuniorParsingTask.App\JuniorParsingTask.App.csproj", "{29571355-2336-4C59-A51C-9BE0C4324521}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "JuniorParsingTask.App", "JuniorParsingTask.App\JuniorParsingTask.App.csproj", "{29571355-2336-4C59-A51C-9BE0C4324521}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JuniorParsingTask.Tests", "JuniorParsingTask.Tests\JuniorParsingTask.Tests.csproj", "{776942EB-35EC-4214-ACEE-2BEFF807CF20}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -18,5 +23,15 @@ Global
 		{29571355-2336-4C59-A51C-9BE0C4324521}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{29571355-2336-4C59-A51C-9BE0C4324521}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{29571355-2336-4C59-A51C-9BE0C4324521}.Release|Any CPU.Build.0 = Release|Any CPU
+		{776942EB-35EC-4214-ACEE-2BEFF807CF20}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{776942EB-35EC-4214-ACEE-2BEFF807CF20}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{776942EB-35EC-4214-ACEE-2BEFF807CF20}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{776942EB-35EC-4214-ACEE-2BEFF807CF20}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5B151227-F284-4987-9956-5668B86BA50B}
 	EndGlobalSection
 EndGlobal
